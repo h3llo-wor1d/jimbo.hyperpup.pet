@@ -1,0 +1,12 @@
+@font-face {
+  src: url("./fonts/teammeat.ttf");
+  font-family: "Meatboy";
+}
+
+body {
+  margin: 0;
+  font-family: "Meatboy";
+  font-size: 30px;
+  background: url("./background.png") repeat;
+  background-size: 30%;
+}
