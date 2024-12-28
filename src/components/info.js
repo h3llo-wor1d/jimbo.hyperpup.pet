@@ -23,7 +23,7 @@ export default function Info(props) {
     const Header = styled.div `
     left: 50%;
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 5%;
     width: fit-content;
     padding-top: 5px;
     position: absolute;
@@ -31,7 +31,7 @@ export default function Info(props) {
     `
 
     const Log = styled.ul `
-    font-size: 14px;
+    font-size: 4%;
     line-height: 15px;
     padding-top: 11px;
     `
