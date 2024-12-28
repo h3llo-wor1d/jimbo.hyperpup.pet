@@ -21,10 +21,10 @@ export default function Info(props) {
     `
 
     const Header = styled.div `
-    left: 50%;
-    padding-left: 20px;
+    padding-left: 230px;
+    text-align: center;
     font-size: 15px;
-    width: fit-content;
+    width: 300px;
     padding-top: 5px;
     position: absolute;
     transform: translateX(-50%);
