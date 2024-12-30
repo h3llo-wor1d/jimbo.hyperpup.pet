@@ -16,9 +16,14 @@ export default function Footer() {
     margin-bottom: 10px;
     margin-top: 5px;
     `
+
+    const Smaller = styled.div `
+    font-size: 10pt;
+    `
     return (
         <Parent>
-            Mod and Website by <Link href="https://hyperpup.pet" target="_blank">HYPERPUP</Link>
+            Mod and Website by <Link href="https://hyperpup.pet" target="_blank">HYPERPUP</Link>.<br/>
+            <Smaller><Link target="_blank" href="https://github.com/h3llo-wor1d/jimbo.hyperpup.pet">This entire site</Link> as well as the <Link target="_blank" href="https://github.com/h3llo-wor1d/the-binding-of-jimbo">mod</Link> are open-source</Smaller>
         </Parent>
     )
 }
